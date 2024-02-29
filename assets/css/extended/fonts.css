@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;700&display=swap');
+
+.entry-content {
+    line-height: 2em !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 17px !important;
+    line-height: 2em !important;
+}
+
+p, .post-content {
+    line-height: 2em !important;
+    font-size: 15px !important;
+    text-align: justify !important;
+}
