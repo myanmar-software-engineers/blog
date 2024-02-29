@@ -49,7 +49,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: " MMSWE Blog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -78,34 +78,19 @@ params:
     - name: github
       url: "https://github.com/myanmar-software-engineers"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true
     hiddenInList: true
     hiddenInSingle: true
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
 
